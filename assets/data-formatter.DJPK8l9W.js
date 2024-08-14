@@ -1,0 +1,1 @@
+const r=(r,t)=>{if(!r)return(0).toFixed(t);t||(t=0);const e=Math.pow(10,t);return(Math.round(Number(r)*e)/e).toFixed(t)},t=(t,e)=>{if(!t||0===t)return"0";let n=t;return(e||0===e)&&(n=r(n,e)),n+="",n.replace(/(\d{1,3})(?=(\d{3})+(?:$|\.))/g,"$1,")};export{t as a,r as f};

@@ -1,0 +1,1 @@
+import{W as s,X as a,ah as o,aB as i}from"./index-Df03ozpu.js";const e={showLoading:a=>{s({title:a||"",mask:!0})},hideLoading:()=>{a()},show:(s,a)=>{o({title:s||"",mask:!0,icon:a||"none",duration:1500})},hide:()=>{i()},showSuccess:s=>{o({title:s||"Success!",icon:"success",mask:!0,duration:1500})}};export{e as T};

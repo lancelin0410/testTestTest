@@ -1,0 +1,6 @@
+import{aE as n,aF as t,aG as r,aH as e}from"./index-mXoUIcYK.js";
+/**
+* @vue/runtime-core v3.4.32
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/function o(n,t,r,e){try{return e?n(...e):n()}catch(o){c(o,t,r)}}function s(n,u,f,a){if(t(n)){const t=o(n,u,f,a);return t&&r(t)&&t.catch((n=>{c(n,u,f)})),t}if(e(n)){const t=[];for(let r=0;r<n.length;r++)t.push(s(n[r],u,f,a));return t}}function c(n,t,r,e=!0){t&&t.vnode;if(t){let e=t.parent;const s=t.proxy,c=`https://vuejs.org/error-reference/#runtime-${r}`;for(;e;){const t=e.ec;if(t)for(let r=0;r<t.length;r++)if(!1===t[r](n,s,c))return;e=e.parent}const u=t.appContext.config.errorHandler;if(u)return void o(u,null,10,[n,s,c])}!function(n){console.error(n)}(n,0,0,e)}function u(n,t,r=l,e=!1){if(r){const o=r[n]||(r[n]=[]),c=t.__weh||(t.__weh=(...e)=>{const o=p(r),c=s(t,r,n,e);return o(),c});return e?o.unshift(c):o.push(c),c}}const f=n=>(t,r=l)=>{h&&"sp"!==n||u(n,((...n)=>t(...n)),r)},a=f("m"),i=f("um");let _,l=null;{const t=n(),r=(n,r)=>{let e;return(e=t[n])||(e=t[n]=[]),e.push(r),n=>{e.length>1?e.forEach((t=>t(n))):e[0](n)}};_=r("__VUE_INSTANCE_SETTERS__",(n=>l=n)),r("__VUE_SSR_SETTERS__",(n=>h=n))}const p=n=>{const t=l;return _(n),n.scope.on(),()=>{n.scope.off(),_(t)}};let h=!1;export{a,i as o};

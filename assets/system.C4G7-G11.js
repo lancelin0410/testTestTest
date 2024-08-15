@@ -1,0 +1,1 @@
+import{ag as s,ah as a,a as t}from"./index-DKy76-ds.js";const e=({text:t})=>{t&&s({data:t,success(){a({title:"Success!",icon:"success",mask:!0,duration:1500})}})},i=s=>{if(!s)return;const a=t();if(navigator.share)navigator.share({title:"",text:"",url:s});else if(a.isCoat){const a={eventName:"share-link",url:s};parent.postMessage(JSON.stringify(a),"*")}};export{e as c,i as s};

@@ -1,0 +1,1 @@
+import{o as t,e as o,h as e,i as a,I as c,y as r,K as n,t as d,Q as p}from"./index-CAkYmPYj.js";const _={class:"no-data"},u={__name:"NoData",props:{desc:{type:String,default:"No records!"}},setup(s){return(i,l)=>(t(),o("div",_,[e(a(c),{src:"/app/no-data-search.png"}),e(a(p),{class:"desc"},{default:r(()=>[n(d(s.desc),1)]),_:1})]))}};export{u as _};

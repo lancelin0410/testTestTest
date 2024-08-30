@@ -1,0 +1,1 @@
+.game-web{background-color:var(--ion-background-color)}.game-web ion-back-button::part(native){padding:0}.game-web ion-content{overflow:hidden}.game-web ion-content ion-img.loading-img{position:absolute;width:100vw;height:100vh;top:50%;left:50%;transform:translate(-50%,-50%)}.game-web ion-content ion-img.loading-img::part(image){object-fit:cover}

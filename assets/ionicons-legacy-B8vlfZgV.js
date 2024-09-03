@@ -1,0 +1,1 @@
+System.register(["./@stencil-legacy-B3F1rWbF.js"],(function(n,e){"use strict";return{setters:[null],execute:function(){n("c","data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><path stroke-linecap='round' stroke-linejoin='round' d='M416 128L192 384l-96-96' class='ionicon-fill-none ionicon-stroke-width'/></svg>")}}}));
